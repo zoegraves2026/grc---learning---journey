@@ -1,0 +1,10 @@
+.content-box {
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+body {
+  border: 1px solid #ddd;
+}
