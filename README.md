@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # GRC---Learning---Journey
 
 Documenting my process of learning Governance, Risk Management, and Compliance (GRC) from scratch.
