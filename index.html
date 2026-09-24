@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GRC Learning Journey</title>
+<style>
+  :root {
+    --deep-purple: #4b3b8f;
+    --mid-purple: #6a5acd;
+    --lavender: #b39ddb;
+    --pink: #f48fb1;
+    --hot-pink: #e91e8c;
+    --pale-pink: #fce4ec;
+    --window-gray: #d1c4e9;
+    --text-dark: #2e1a47;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    font-family: "Courier New", Courier, monospace;
+    background: linear-gradient(180deg, #5b4b9e 0%, #8d6fc9 50%, #c9a2d6 100%);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  header {
+    background: linear-gradient(90deg, var(--hot-pink), var(--mid-purple));
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid var(--pale-pink);
+    box-shadow: 0 3px 0 var(--deep-purple);
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-shadow: 2px 2px 0 var(--deep-purple);
+    letter-spacing: 1px;
+  }
+
+  header p {
+    margin-top: 10px;
+    opacity: 0.95;
+  }
+
+  .container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+
+  /* Retro "window" card style */
+  .card {
+    background: var(--pale-pink);
+    border: 2px solid var(--deep-purple);
+    border-radius: 4px;
+    margin-bottom: 25px;
+    box-shadow: 4px 4px 0 var(--deep-purple);
+    overflow: hidden;
+  }
+
+  .card .titlebar {
+    background: linear-gradient(90deg, var(--hot-pink), var(--pink));
+    color: white;
+    padding: 6px 12px;
+    font-weight: bold;
+    font-size: 0.95em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card .titlebar .dots span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 1px solid var(--deep-purple);
+    margin-left: 4px;
+    border-radius: 2px;
+  }
+
+  .card .body {
+    padding: 18px 20px;
+  }
+
+  .card a {
+    text-decoration: none;
+    color: var(--deep-purple);
+    font-weight: 700;
+  }
+
+  .card a:hover {
+    text-decoration: underline;
+    color: var(--hot-pink);
+  }
+
+  .toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .toc-list li {
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    border: 2px solid var(--lavender);
+    border-left: 6px solid var(--hot-pink);
+    border-radius: 3px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .status {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid var(--deep-purple);
+    border-radius: 10px;
+    font-size: 0.75em;
+    font-weight: 700;
+    color: white;
+  }
+
+  .status.done { background: #7e57c2; }
+  .status.progress { background: var(--hot-pink); }
+  .status.notstarted { background: #ab8ce4; }
+
+  .note-box {
+    border: 2px dashed var(--hot-pink);
+    background: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin: 20px 0;
+    box-shadow: 3px 3px 0 var(--lavender);
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--pale-pink);
+    font-size: 0.8em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>💾 GRC Learning Journey 💾</h1>
+  <p>Documenting my path through Governance, Risk, and Compliance — from fundamentals to projects.</p>
+</header>
+
+<div class="container">
+
+  <div class="note-box">
+    📌 <strong>Goal:</strong> Build a strong foundation in GRC concepts and frameworks, and produce hands-on projects along the way.
+  </div>
+
+  <div class="card">
+    <div class="titlebar">
+      <span>📁 table_of_contents.exe</span>
+      <span class="dots"><span></span><span></span><span></span></span>
+    </div>
+    <div class="body">
+      <ul class="toc-list">
+        <li><a href="https://github.com/zoegraves2026/grc-learning-journey/tree/main/01-fundamentals">01 - Fundamentals</a><span class="status done">Done</span></li>
+        <li><a href="https://github.com/zoegraves2026/grc-learning-journey/tree/main/02-governance">02 - Governance</a><span class="status progress">In Progress</span></li>
+        <li><a href="https://github.com/zoegraves2026/grc-learning-journey/tree/main/03-risk-management">03 - Risk Management</a><span class="status notstarted">Not Started</span></li>
+        <li><a href="https://github.com/zoegraves2026/grc-learning-journey/tree/main/04-compliance">04 - Compliance</a><span class="status notstarted">Not Started</span></li>
+        <li><a href="https://github.com/zoegraves2026/grc-learning-journey/tree/main/05-frameworks">05 - Frameworks</a><span class="status notstarted">Not Started</span></li>
+        <li><a href="https://github.com/zoegraves2026/grc-learning-journey/tree/main/06-tools">06 - Tools</a><span class="status notstarted">Not Started</span></li>
+        <li><a href="https://github.com/zoegraves2026/grc-learning-journey/tree/main/07-projects">07 - Projects</a><span class="status notstarted">Not Started</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="titlebar">
+      <span>📈 progress_log.txt</span>
+      <span class="dots"><span></span><span></span><span></span></span>
+    </div>
+    <div class="body">
+      <p>YYYY-MM-DD — Started fundamentals, learned the basic definition of GRC.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="titlebar">
+      <span>📖 resources.md</span>
+      <span class="dots"><span></span><span></span><span></span></span>
+    </div>
+    <div class="body">
+      <p>See the <a href="https://github.com/zoegraves2026/grc-learning-journey/blob/main/resources.md">resources file</a> for books, courses, and certs I'm working toward (CGRC, CRISC).</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  ✦ Built while learning GRC · Updated regularly ✦
+</footer>
+
+</body>
+</html>
