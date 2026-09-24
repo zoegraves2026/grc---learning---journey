@@ -2,7 +2,7 @@
 
 Documenting my process of learning Governance, Risk Management, and Compliance (GRC) from scratch.
 
-# # Goal
+## Goal
 Build a solid foundation in GRC concepts, frameworks, and real-world applications-create a portfolio of hands-on projects throughout the process
 
 ## Table of Contents
