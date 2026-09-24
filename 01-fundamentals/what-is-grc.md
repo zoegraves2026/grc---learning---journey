@@ -1,4 +1,4 @@
-#What is GRC
+## What is GRC
 
 ## Definition
 GRC stands for Governance, Risk Management, and Compliance - a framework...
@@ -8,7 +8,7 @@ GRC stands for Governance, Risk Management, and Compliance - a framework...
 - **Risk Management**
 - **Compliance**
 
-## Why it matters
+## Why it matters in Cybersecurity
 
 
 ## Sources
